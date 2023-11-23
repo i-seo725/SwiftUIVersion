@@ -7,18 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F40BC7602B1029F60045DC7F /* ComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40BC75F2B1029F60045DC7F /* ComponentView.swift */; };
+		F40BC7622B102D2C0045DC7F /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40BC7612B102D2C0045DC7F /* SheetView.swift */; };
 		F454009E2B0EDE3000851580 /* SwiftUIVersionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454009D2B0EDE3000851580 /* SwiftUIVersionApp.swift */; };
 		F45400A02B0EDE3000851580 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454009F2B0EDE3000851580 /* ContentView.swift */; };
 		F45400A22B0EDE3000851580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F45400A12B0EDE3000851580 /* Assets.xcassets */; };
 		F45400A52B0EDE3000851580 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F45400A42B0EDE3000851580 /* Preview Assets.xcassets */; };
+		F45400AD2B0EDF8500851580 /* PointBackgroundText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45400AC2B0EDF8500851580 /* PointBackgroundText.swift */; };
+		F45400B02B0EE47600851580 /* ForegroundWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45400AF2B0EE47600851580 /* ForegroundWrapper.swift */; };
+		F45400B22B0EE70500851580 /* TabBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45400B12B0EE70500851580 /* TabBadgeView.swift */; };
+		F45400B42B0EE83300851580 /* BadgeWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45400B32B0EE83300851580 /* BadgeWrapper.swift */; };
+		F45400B62B0EF23500851580 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45400B52B0EF23500851580 /* ButtonView.swift */; };
+		F45400B82B0EF5AB00851580 /* ButtonWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45400B72B0EF5AB00851580 /* ButtonWrapper.swift */; };
+		F45400BA2B0EF8D600851580 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45400B92B0EF8D600851580 /* MainView.swift */; };
+		F45400BC2B0EF97A00851580 /* NavigationWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45400BB2B0EF97A00851580 /* NavigationWrapper.swift */; };
+		F45400BE2B0F174600851580 /* NavigationBarWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45400BD2B0F174600851580 /* NavigationBarWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F40BC75F2B1029F60045DC7F /* ComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentView.swift; sourceTree = "<group>"; };
+		F40BC7612B102D2C0045DC7F /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
 		F454009A2B0EDE3000851580 /* SwiftUIVersion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIVersion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F454009D2B0EDE3000851580 /* SwiftUIVersionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIVersionApp.swift; sourceTree = "<group>"; };
 		F454009F2B0EDE3000851580 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F45400A12B0EDE3000851580 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F45400A42B0EDE3000851580 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F45400AC2B0EDF8500851580 /* PointBackgroundText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointBackgroundText.swift; sourceTree = "<group>"; };
+		F45400AF2B0EE47600851580 /* ForegroundWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForegroundWrapper.swift; sourceTree = "<group>"; };
+		F45400B12B0EE70500851580 /* TabBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBadgeView.swift; sourceTree = "<group>"; };
+		F45400B32B0EE83300851580 /* BadgeWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeWrapper.swift; sourceTree = "<group>"; };
+		F45400B52B0EF23500851580 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		F45400B72B0EF5AB00851580 /* ButtonWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWrapper.swift; sourceTree = "<group>"; };
+		F45400B92B0EF8D600851580 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F45400BB2B0EF97A00851580 /* NavigationWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationWrapper.swift; sourceTree = "<group>"; };
+		F45400BD2B0F174600851580 /* NavigationBarWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +73,17 @@
 		F454009C2B0EDE3000851580 /* SwiftUIVersion */ = {
 			isa = PBXGroup;
 			children = (
+				F45400AE2B0EE44D00851580 /* Wrapper */,
+				F45400AB2B0EDF4600851580 /* CustomModifier */,
 				F454009D2B0EDE3000851580 /* SwiftUIVersionApp.swift */,
 				F454009F2B0EDE3000851580 /* ContentView.swift */,
 				F45400A12B0EDE3000851580 /* Assets.xcassets */,
 				F45400A32B0EDE3000851580 /* Preview Content */,
+				F45400B12B0EE70500851580 /* TabBadgeView.swift */,
+				F45400B52B0EF23500851580 /* ButtonView.swift */,
+				F45400B92B0EF8D600851580 /* MainView.swift */,
+				F40BC75F2B1029F60045DC7F /* ComponentView.swift */,
+				F40BC7612B102D2C0045DC7F /* SheetView.swift */,
 			);
 			path = SwiftUIVersion;
 			sourceTree = "<group>";
@@ -65,6 +94,26 @@
 				F45400A42B0EDE3000851580 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F45400AB2B0EDF4600851580 /* CustomModifier */ = {
+			isa = PBXGroup;
+			children = (
+				F45400AC2B0EDF8500851580 /* PointBackgroundText.swift */,
+			);
+			path = CustomModifier;
+			sourceTree = "<group>";
+		};
+		F45400AE2B0EE44D00851580 /* Wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				F45400AF2B0EE47600851580 /* ForegroundWrapper.swift */,
+				F45400B32B0EE83300851580 /* BadgeWrapper.swift */,
+				F45400B72B0EF5AB00851580 /* ButtonWrapper.swift */,
+				F45400BB2B0EF97A00851580 /* NavigationWrapper.swift */,
+				F45400BD2B0F174600851580 /* NavigationBarWrapper.swift */,
+			);
+			path = Wrapper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +186,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F45400AD2B0EDF8500851580 /* PointBackgroundText.swift in Sources */,
+				F45400BA2B0EF8D600851580 /* MainView.swift in Sources */,
+				F45400BE2B0F174600851580 /* NavigationBarWrapper.swift in Sources */,
 				F45400A02B0EDE3000851580 /* ContentView.swift in Sources */,
+				F45400B22B0EE70500851580 /* TabBadgeView.swift in Sources */,
+				F40BC7622B102D2C0045DC7F /* SheetView.swift in Sources */,
+				F45400B82B0EF5AB00851580 /* ButtonWrapper.swift in Sources */,
+				F45400B42B0EE83300851580 /* BadgeWrapper.swift in Sources */,
+				F45400B02B0EE47600851580 /* ForegroundWrapper.swift in Sources */,
+				F40BC7602B1029F60045DC7F /* ComponentView.swift in Sources */,
+				F45400BC2B0EF97A00851580 /* NavigationWrapper.swift in Sources */,
 				F454009E2B0EDE3000851580 /* SwiftUIVersionApp.swift in Sources */,
+				F45400B62B0EF23500851580 /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +340,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +370,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
